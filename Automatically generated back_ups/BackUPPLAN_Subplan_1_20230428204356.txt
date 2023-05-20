@@ -1,0 +1,19 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 14.0.1000
+Report was generated on "DESKTOP-5HF77CK".
+Maintenance Plan: BackUPPLAN
+Duration: 00:00:01
+Status: Succeeded.
+Details:
+Back Up Database (Full) (DESKTOP-5HF77CK)
+Backup Database on Local server connection
+Databases: Project_SQL
+Type: Full
+Append existing
+Task start: 2023-04-28T20:43:55.
+Task end: 2023-04-28T20:43:56.
+Success
+Command:BACKUP DATABASE [Project_SQL] TO  DISK = N''H:\SQL PROJECT\Project_SQL_backup_2023_04_28_204355_4490968.bak'' WITH NOFORMAT, NOINIT,  NAME = N''Project_SQL_backup_2023_04_28_204355_4490968'', SKIP, REWIND, NOUNLOAD,  STATS = 10
+
+GO
+
+
